@@ -1,0 +1,167 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fce4ec; /* Rosa bebê */
+}
+
+header {
+  background-color: #e91e63; /* Rosa forte */
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f8bbd0; /* Bege pastel */
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  color: white;
+}
+
+.slideshow {
+  display: flex;
+  overflow: hidden;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+}
+
+.product {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+.mais-vendidos {
+  text-align: center;
+}
+
+.produtos {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.produto img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.produto button {
+  background-color: #ff69b4; /* Rosa forte */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.produto button:hover {
+  background-color: #ff85c0; /* Tom mais claro de rosa */
+}
+.novidades {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: #ff69b4; /* Rosa forte */
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fbe7e6; /* Bege pastel */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.product img {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #ff69b4; /* Rosa forte */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.product button:hover {
+  background-color: #ff85c0; /* Tom mais claro de rosa */
+}
+.checkout {
+  text-align: center;
+  padding: 20px;
+  background-color: #fbe7e6; /* Bege pastel */
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff69b4; /* Rosa forte */
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-finalizar {
+  background-color: #ff69b4; /* Rosa forte */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.btn-finalizar:hover {
+  background-color: #ff85c0; /* Tom mais claro de rosa */
+}
