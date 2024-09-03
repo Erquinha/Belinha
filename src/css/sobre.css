@@ -1,0 +1,56 @@
+.sobre {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f8f0f5; /* Bege pastel */
+  min-height: 100vh; /* Ocupa a altura total da tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.sobre h1 {
+  color: #f08080; /* Rosa forte */
+  font-size: 2.5rem;
+  margin-bottom: 2rem; /* Espaço adicional abaixo do título */
+}
+
+.sobre p {
+  max-width: 90%; /* Ajusta a largura do texto para telas menores */
+  margin: 0 auto;
+  color: #333;
+  font-size: 1.2rem; /* Fonte maior */
+  line-height: 1.6;
+  font-weight: bold; /* Texto em negrito */
+  margin-top: 2rem; /* Espaço adicional acima do texto */
+  margin-bottom: 0; /* Remove a margem inferior padrão */
+}
+
+/* Responsividade para tablets */
+@media (max-width: 768px) {
+  .sobre h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem; /* Espaço ajustado para tablets */
+  }
+
+  .sobre p {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    margin-top: 1rem; /* Ajuste de margem superior para tablets */
+  }
+}
+
+/* Responsividade para smartphones */
+@media (max-width: 480px) {
+  .sobre h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem; /* Espaço ajustado para smartphones */
+  }
+
+  .sobre p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 1rem; /* Ajuste de margem superior para smartphones */
+  }
+}

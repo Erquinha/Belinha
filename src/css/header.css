@@ -1,0 +1,23 @@
+header {
+    background-color: #f8f0f5; /* Bege pastel */
+    padding: 1rem;
+    border-bottom: 2px solid #f08080; /* Rosa forte */
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #f08080; /* Rosa forte */
+  }
+  

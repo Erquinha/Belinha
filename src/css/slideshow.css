@@ -1,0 +1,40 @@
+.slideshow {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    animation: slide 19s infinite;
+  }
+  
+  .slides img {
+    width: 100%;
+    flex: 0 0 100%;
+    height: auto;
+  }
+  
+  /* Define a animação para o slideshow */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    20% {
+      transform: translateX(-100%);
+    }
+    40% {
+      transform: translateX(-200%);
+    }
+    60% {
+      transform: translateX(-300%);
+    }
+    80% {
+      transform: translateX(-400%);
+    }
+    100% {
+      transform: translateX(-500%);
+    }
+  }
+  

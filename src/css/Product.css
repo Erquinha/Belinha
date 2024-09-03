@@ -1,0 +1,39 @@
+.product {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #fff;
+    text-align: center;
+    margin: 1rem;
+    width: 200px; /* ajuste conforme necessário */
+  }
+  
+  .product img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .product h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .buy-now {
+    background-color: #f08080; /* Rosa forte */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+  }
+  
+  .buy-now:hover {
+    background-color: #e07b7b; /* Rosa um pouco mais escuro */
+  }
+  

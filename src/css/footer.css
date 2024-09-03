@@ -1,0 +1,12 @@
+footer {
+    background-color: #f8f0f5; /* Bege pastel */
+    padding: 1rem;
+    border-top: 2px solid #f08080; /* Rosa forte */
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    color: #333;
+  }
+  

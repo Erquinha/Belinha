@@ -1,15 +1,17 @@
 import React from 'react';
 import Slideshow from '../components/Slideshow';
-import Product from '../components/Product';
+import Product from '../components/Product'; 
+import '../css/Home.css'; 
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Slideshow />
       <div className="products">
-        {/* Aqui você adiciona os produtos */}
-        <Product name="Produto 1" price="R$ 50,00" img="public/melhor-creme-para-cabelo-cacheado-2-.webp"/>
-        <Product name="Produto 2" price="R$ 70,00" img="public/2,,,.webp" />
+        <Product name="KIT BELEZA FEMININA" price="R$ 159,99" img="/2,,,.webp"/>
+        <Product name="KIT PAZ E AMOR" price="R$ 159,99" img="/1,,,.webp" />
+        <Product name="KIT ARCOÍRIS DE BELEZA" price="R$ 279,99" img="public/cacho.webp" />
+        <Product name="KIT DELICADEZA FEMININA" price="R$ 235,99" img="/3,,,.jpg" />
       </div>
     </div>
   );

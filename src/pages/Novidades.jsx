@@ -6,27 +6,33 @@ function Novidades() {
   const navigate = useNavigate();
 
   const handleComprarAgora = () => {
-    navigate('/checkoutMeusPedidos'); // Redireciona para a página de checkout
+    navigate('/checkoutMeusPedidos'); 
   };
 
   return (
     <div className="novidades">
       <Slideshow />
       <div className="products">
-        <h2>Pague 2 e Leve 3!</h2>
+        <h2>Pague 2 e Leve 1 Grátis!</h2>
         <div className="product-grid">
-          <div className="product">
-            <img src="url-do-produto-1" alt="Produto 1" />
-            <button onClick={handleComprarAgora}>Comprar Agora</button>
+          <div className="product-group">
+            <div className="product">
+              <img src="public/1,,,.webp" alt="KIT ARCOÍRIS DE BELEZA" />
+              <p>KIT ARCOÍRIS DE BELEZA</p>
+            </div>
+            <div className="product">
+              <img src="public/3,,,.jpg" alt="KIT PAZ E AMOR" />
+              <p>KIT PAZ E AMOR</p>
+            </div>
+            <div className="product free-item">
+              <img src="public/2,,,.webp" alt="KIT BELEZA FEMININA" />
+              <p>Free</p>
+            </div>
           </div>
-          <div className="product">
-            <img src="url-do-produto-2" alt="Produto 2" />
-            <button onClick={handleComprarAgora}>Comprar Agora</button>
+          <div className="promotion-info">
+            <p>Compre os dois kits acima e leve o KIT BELEZA FEMININA de graça!</p>
           </div>
-          <div className="product">
-            <img src="url-do-produto-3" alt="Produto 3" />
-            <button onClick={handleComprarAgora}>Comprar Agora</button>
-          </div>
+          <button onClick={handleComprarAgora}>Comprar Agora</button>
         </div>
       </div>
     </div>
