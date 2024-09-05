@@ -1,54 +1,70 @@
 .mais-vendidos {
   padding: 2rem;
   text-align: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Estilo do título */
 .mais-vendidos h1 {
   margin-bottom: 2rem;
-  color: #f08080; /* Rosa forte para o título */
+  color: #f08080; /* Rosa forte */
+  font-size: 2.5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Estilo do contêiner de produtos */
 .mais-vendidos .products {
   display: flex;
-  flex-wrap: wrap; /* Permite que os produtos se ajustem para a próxima linha se necessário */
-  gap: 1rem; /* Espaçamento entre os produtos */
-  justify-content: center; /* Centraliza os produtos */
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Estilo de cada produto */
 .mais-vendidos .product {
   border: 1px solid #eee;
   border-radius: 8px;
   padding: 1rem;
   background-color: #fff;
   text-align: center;
-  flex: 1 1 calc(33.333% - 2rem); /* Ajusta a largura dos produtos, 3 produtos por linha com espaçamento */
-  box-sizing: border-box; /* Inclui padding e border na largura total do produto */
+  flex: 1 1 calc(25% - 2rem); /* 4 produtos por linha com espaçamento */
+  box-sizing: border-box;
 }
 
+/* Estilo da imagem do produto */
 .mais-vendidos .product img {
   width: 100%;
+  height: auto;
   border-radius: 8px;
 }
 
+/* Estilo das informações do produto */
 .mais-vendidos .product-info {
   margin-top: 1rem;
 }
 
+/* Estilo do preço */
 .mais-vendidos .price {
   font-size: 1.2rem;
   color: #333;
   margin-bottom: 0.5rem;
 }
 
+/* Estilo do botão de compra */
 .mais-vendidos .buy-now {
   background-color: #f8c6c6; /* Rosa claro */
   color: #fff;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 0.5rem; /* Espaçamento acima do botão */
-  text-decoration: none; /* Remover sublinhado no link */
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
 }
 
 .mais-vendidos .buy-now:hover {
@@ -56,9 +72,20 @@
 }
 
 /* Responsividade */
+@media (max-width: 1024px) {
+  .mais-vendidos .product {
+    flex: 1 1 calc(33.333% - 2rem); /* 3 produtos por linha em telas médias */
+  }
+}
+
 @media (max-width: 768px) {
   .mais-vendidos .product {
-    flex: 1 1 calc(50% - 2rem); /* 2 produtos por linha em telas médias */
+    flex: 1 1 calc(50% - 2rem); /* 2 produtos por linha em telas menores */
+  }
+
+  .mais-vendidos .buy-now {
+    padding: 0.75rem 1.25rem; /* Ajuste de padding do botão */
+    font-size: 0.9rem;
   }
 }
 
@@ -66,4 +93,12 @@
   .mais-vendidos .product {
     flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
   }
+
+  .mais-vendidos .buy-now {
+    padding: 0.5rem 1rem; /* Ajuste de padding do botão */
+    font-size: 0.9rem;
+  }
+}
+* {
+  box-sizing: border-box;
 }
