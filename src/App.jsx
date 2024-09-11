@@ -14,7 +14,7 @@ import './css/novidades.css';
 import './css/maisVendidos.css';
 import './css/sobre.css';
 import './css/checkoutMeusPedidos.css';
-import './css/sobre.css';  
+import './css/sobre.css'; 
 
 
 
