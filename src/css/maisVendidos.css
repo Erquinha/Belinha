@@ -91,7 +91,7 @@
 
 @media (max-width: 480px) {
   .mais-vendidos .product {
-    flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
+    flex: 1 1 100%; /* 1 produto por li em telas pequenas */
   }
 
   .mais-vendidos .buy-now {
