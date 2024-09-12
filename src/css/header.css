@@ -10,6 +10,7 @@ header {
     justify-content: space-around;
     list-style: none;
     padding: 0;
+    height: 15px;
     
 
   }
@@ -24,10 +25,10 @@ header {
     color: #f08080; /* Rosa forte */
   }
 
-.logo {
-  width: 100px; /* Ajuste o tamanho conforme necessário */
+.logo ul {
+  width: 10px; /* Ajuste o tamanho conforme necessário */
   height: auto;
-  margin-right: 50px; /* Espaço à direita da logo */
+  margin-right: 100px; /* Espaço à direita da logo */
 }
 
 nav ul {
