@@ -1,15 +1,16 @@
 .mais-vendidos {
-  padding: 2rem;
+  padding: 28rem;
   text-align: center;
   width: 100%;
   box-sizing: border-box;
+  margin-bottom: -50px;
 }
 
 /* Estilo do título */
 .mais-vendidos h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   color: #f08080; /* Rosa forte */
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -18,7 +19,7 @@
 .mais-vendidos .products {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0rem; /* Adiciona espaço entre os produtos */
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
@@ -27,19 +28,23 @@
 /* Estilo de cada produto */
 .mais-vendidos .product {
   border: 1px solid #eee;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 1rem;
   background-color: #fff;
   text-align: center;
   flex: 1 1 calc(25% - 1rem); /* 4 produtos por linha com espaçamento */
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  justify-content: space-between; /* Distribui o espaço entre a imagem e as informações do produto */
 }
 
 /* Estilo da imagem do produto */
 .mais-vendidos .product img {
   width: 100%;
   height: auto;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 /* Estilo das informações do produto */
@@ -68,7 +73,7 @@
 }
 
 .mais-vendidos .buy-now:hover {
-  background-color: #f08080; /* Rosa forte ao passar o mouse */
+  background-color: #d87272; /* Rosa forte ao passar o mouse */
 }
 
 /* Responsividade */
@@ -91,7 +96,7 @@
 
 @media (max-width: 480px) {
   .mais-vendidos .product {
-    flex: 1 1 100%; /* 1 produto por li em telas pequenas */
+    flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
   }
 
   .mais-vendidos .buy-now {

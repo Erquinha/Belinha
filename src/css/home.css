@@ -69,3 +69,8 @@
     flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
   }
 }
+.logo {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+  margin-bottom: 20px; /* Espaço abaixo da logo */
+}

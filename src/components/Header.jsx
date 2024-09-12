@@ -6,6 +6,7 @@ function Header() {
     <header>
       <nav>
         <ul>
+        <img src="/logo.png" alt="Logo" className="logo" />
           <li><Link to="/">Home</Link></li>
           <li><Link to="/novidades">Novidades</Link></li>
           <li><Link to="/maisVendidos">Mais Vendidos</Link></li>
