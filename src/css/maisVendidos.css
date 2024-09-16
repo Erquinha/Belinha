@@ -1,9 +1,10 @@
 .mais-vendidos {
-  padding: 28rem;
   text-align: center;
-  width: 100%;
+  width: 50%;
   box-sizing: border-box;
   margin-bottom: -50px;
+  margin: auto;
+  padding-bottom: 6rem;
 }
 
 /* Estilo do título */

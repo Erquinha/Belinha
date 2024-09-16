@@ -1,13 +1,14 @@
 .sobre {
-  padding: 2rem;
+ 
   text-align: center;
   background-color: #f8f0f5; /* Bege pastel */
-  min-height: 100vh; /* Ocupa a altura total da tela */
+  min-height: 50vh; /* Ocupa a altura total da tela */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  
+  padding-bottom: 10rem;
 }
 
 .sobre h1 {
@@ -17,7 +18,7 @@
 }
 
 .sobre p {
-  max-width: 90%; /* Ajusta a largura do texto para telas menores */
+  max-width: 60%; /* Ajusta a largura do texto para telas menores */
   margin: 0 auto;
   color: #333;
   font-size: 1.2rem; /* Fonte maior */

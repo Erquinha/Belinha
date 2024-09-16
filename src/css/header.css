@@ -1,47 +1,57 @@
 header {
-    background-color: #f8f0f5; /* Bege pastel */
-    padding: 1rem;
-  
+  background-color: #f8f0f5; /* Bege pastel */
+  padding: 1rem;
 
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    padding: 0;
-    height: 15px;
-    
 
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #f08080; /* Rosa forte */
-  }
-
-.logo ul {
-  width: 10px; /* Ajuste o tamanho conforme necessário */
-  height: auto;
-  margin-right: 100px; /* Espaço à direita da logo */
 }
 
 nav ul {
-  list-style: none;
   display: flex;
-  gap: 15px;
+  justify-content: space-around;
+   align-items: center;
+  list-style: none;
+  padding: 0;
+  height: 17px;
+  
+
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f08080; /* Rosa forte */
+}
+
+
+.logo {
+
+width: 200px;
+height: 200px;
+margin-top: 32px;
+margin-left: -40px;
+}
+
+img {
+margin-right: -50px;
+
+}
+
+
+nav ul {
+list-style: none;
+display: flex;
+gap: 15px;
 }
 
 nav ul li {
-  display: inline;
+display: inline;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #333;
+text-decoration: none;
+color: #333;
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import '../css/CheckoutMeusPedidos.css'; 
+import '../css/footer.css';
 
 function CheckoutMeusPedidos() {
   return (

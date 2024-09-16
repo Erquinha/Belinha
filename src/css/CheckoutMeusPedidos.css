@@ -1,11 +1,25 @@
+
+.checkout {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+ 
+}
+
+.checkout h1 {
+  text-align: center;
+}
 .checkout-container {
   padding: 100rem;
-  width: 1000%; /* Garante que o container ocupe toda a largura da tela */
+  width: 90%; /* Garante que o container ocupe toda a largura da tela */
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f8f0f5; /* Bege pastel */
   border-radius: 150px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .checkout-header {
@@ -131,3 +145,4 @@
     font-size: 0.8rem; /* Ajusta o tamanho da fonte para telas menores */
   }
 }
+
