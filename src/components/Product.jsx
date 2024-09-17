@@ -1,5 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import "../css/Product.css"; 
+
 
 function Product({ name, price, img }) {
   const navigate = useNavigate();

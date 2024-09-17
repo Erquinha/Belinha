@@ -62,7 +62,7 @@ nav li {
 }
 
 .produto img {
-  width: 150px;
+  width: 100px;
   height: auto;
   margin-bottom: 10px;
 }
@@ -99,7 +99,7 @@ h2 {
   align-items: center;
   background-color: #fbe7e6; /* Bege pastel */
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 15px;
 }
 
 .product img {
