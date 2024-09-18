@@ -1,16 +1,16 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #fce4ec; /* Rosa bebê */
+  background-color: #fce4ec; 
 }
 
 header {
-  background-color: #e91e63; /* Rosa forte */
+  background-color: #e91e63; 
   padding: 20px;
   text-align: center;
 }
 
 footer {
-  background-color: #f8bbd0; /* Bege pastel */
+  background-color: #f8bbd0; 
   padding: 10px;
   text-align: center;
   margin-top: 20px;
@@ -68,7 +68,7 @@ nav li {
 }
 
 .produto button {
-  background-color: #ff69b4; /* Rosa forte */
+  background-color: #ff69b4; 
   color: white;
   border: none;
   padding: 10px 20px;
@@ -76,7 +76,7 @@ nav li {
 }
 
 .produto button:hover {
-  background-color: #ff85c0; /* Tom mais claro de rosa */
+  background-color: #ff85c0; 
 }
 .novidades {
   text-align: center;
@@ -84,7 +84,7 @@ nav li {
 }
 
 h2 {
-  color: #ff69b4; /* Rosa forte */
+  color: #ff69b4; 
 }
 
 .product-grid {
@@ -97,7 +97,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fbe7e6; /* Bege pastel */
+  background-color: #fbe7e6; 
   padding: 10px;
   border-radius: 15px;
 }
@@ -109,7 +109,7 @@ h2 {
 }
 
 .product button {
-  background-color: #ff69b4; /* Rosa forte */
+  background-color: #ff69b4;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -118,12 +118,12 @@ h2 {
 }
 
 .product button:hover {
-  background-color: #ff85c0; /* Tom mais claro de rosa */
+  background-color: #ff85c0;
 }
 .checkout {
   text-align: center;
   padding: 20px;
-  background-color: #fbe7e6; /* Bege pastel */
+  background-color: #fbe7e6;
 }
 
 .checkout-form {
@@ -142,7 +142,7 @@ h2 {
 label {
   display: block;
   margin-bottom: 5px;
-  color: #ff69b4; /* Rosa forte */
+  color: #ff69b4;
 }
 
 input, select {
@@ -153,7 +153,7 @@ input, select {
 }
 
 .btn-finalizar {
-  background-color: #ff69b4; /* Rosa forte */
+  background-color: #ff69b4;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -163,5 +163,5 @@ input, select {
 }
 
 .btn-finalizar:hover {
-  background-color: #ff85c0; /* Tom mais claro de rosa */
+  background-color: #ff85c0; 
 }

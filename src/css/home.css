@@ -1,14 +1,14 @@
-/* Home.css */
+
 .home {
   padding: 2rem;
-  background-color: #f8f0f5; /* Bege pastel */
+  background-color: #f8f0f5; 
 }
 
 .home .products {
   display: flex;
-  flex-wrap: wrap; /* Permite que os produtos se ajustem para a próxima linha se necessário */
-  gap: 1rem; /* Espaçamento entre os produtos */
-  justify-content: center; /* Centraliza os produtos */
+  flex-wrap: wrap; 
+  gap: 1rem; 
+  justify-content: center; 
 }
 
 .home .product {
@@ -17,8 +17,8 @@
   padding: 1rem;
   background-color: #fff;
   text-align: center;
-  flex: 1 1 calc(25% - 2rem); /* Ajusta a largura dos produtos, 4 produtos por linha com espaçamento */
-  box-sizing: border-box; /* Inclui padding e border na largura total do produto */
+  flex: 1 1 calc(25% - 2rem);
+  box-sizing: border-box; 
 }
 
 .home .product img {
@@ -38,39 +38,39 @@
 }
 
 .home .product-info .buy-now {
-  background-color: #f8c6c6; /* Rosa claro */
+  background-color: #f8c6c6;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   cursor: pointer;
-  text-decoration: none; /* Remover sublinhado no link */
+  text-decoration: none; 
 }
 
 .home .product-info .buy-now:hover {
-  background-color: #f8d8d8; /* Rosa forte ao passar o mouse */
+  background-color: #f8d8d8; 
 }
 
-/* Responsividade */
+
 @media (max-width: 1024px) {
   .home .product {
-    flex: 1 1 calc(33.333% - 2rem); /* 3 produtos por linha em telas médias */
+    flex: 1 1 calc(33.333% - 2rem);
   }
 }
 
 @media (max-width: 768px) {
   .home .product {
-    flex: 1 1 calc(50% - 2rem); /* 2 produtos por linha em telas menores */
+    flex: 1 1 calc(50% - 2rem);
   }
 }
 
 @media (max-width: 480px) {
   .home .product {
-    flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
+    flex: 1 1 100%;
   }
 }
 .logo {
-  width: 50px; /* Ajuste o tamanho conforme necessário */
+  width: 50px; 
   height: auto;
-  margin-bottom: 20px; /* Espaço abaixo da logo */
+  margin-bottom: 20px; 
 }

@@ -4,21 +4,21 @@
   padding: 1rem;
   background-color: #fff;
   text-align: center;
-  margin: 2rem auto; /* Centraliza o contêiner do produto */
-  width: 80%; /* ajuste conforme necessário */
-  max-width: 1000px; /* Limita a largura máxima */
-  box-sizing: border-box; /* Inclui a borda e o padding na largura total */
+  margin: 2rem auto; 
+  width: 80%;
+  max-width: 1000px; 
+  box-sizing: border-box; 
 }
 
 .product img {
-  max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
-  height: auto; /* Mantém a proporção da imagem */
-  display: block; /* Remove o espaço em branco ao redor da imagem */
-  margin: 0 auto; /* Centraliza a imagem dentro do contêiner */
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto;
 }
 
 .buy-now {
-  background-color: #c58b8b; /* Rosa forte */
+  background-color: #d48080; 
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -28,5 +28,5 @@
 }
 
 .buy-now:hover {
-  background-color: #e07b7b; /* Rosa um pouco mais escuro */
+  background-color: #b96161; 
 }

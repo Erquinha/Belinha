@@ -13,10 +13,10 @@
 }
 .checkout-container {
   padding: 100rem;
-  width: 90%; /* Garante que o container ocupe toda a largura da tela */
+  width: 90%; 
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #f8f0f5; /* Bege pastel */
+  background-color: #f8f0f5; 
   border-radius: 150px;
   box-sizing: border-box;
   align-items: center;
@@ -29,13 +29,13 @@
 
 .checkout-header h1 {
   font-size: 5.5rem;
-  color: #f08080; /* Rosa forte */
+  color: #f08080;
 }
 
 .checkout-form {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem; /* Espaçamento entre os campos de texto */
+  gap: 1.5rem;
   margin-bottom: 2rem;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .checkout-form textarea {
-  resize: vertical; /* Permite redimensionar a altura da textarea */
+  resize: vertical; 
 }
 
 .checkout-products {
@@ -89,7 +89,7 @@
 }
 
 .checkout-product-info .buy-now {
-  background-color: #f28b82; /* Vermelho fraco */
+  background-color: #f28b82; 
   color: #fff;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -102,47 +102,47 @@
 }
 
 .checkout-product-info .buy-now:hover {
-  background-color: #d9534f; /* Vermelho mais escuro ao passar o mouse */
+  background-color: #d9534f; 
 }
 
-/* Responsividade */
+
 @media (max-width: 1024px) {
   .checkout-product {
-    flex: 1 1 calc(50% - 1.5rem); /* 2 produtos por linha em telas médias */
+    flex: 1 1 calc(50% - 1.5rem);
   }
 
   .checkout-header h1 {
-    font-size: 2rem; /* Diminui o tamanho da fonte em telas médias */
+    font-size: 2rem; 
   }
 }
 
 @media (max-width: 768px) {
   .checkout-product {
-    flex: 1 1 100%; /* 1 produto por linha em telas menores */
+    flex: 1 1 100%; 
   }
 
   .checkout-header h1 {
-    font-size: 1.8rem; /* Ajusta o tamanho da fonte para telas menores */
+    font-size: 1.8rem;
   }
 
   .checkout-product-info .buy-now {
     padding: 0.5rem 1rem;
-    font-size: 0.9rem; /* Ajusta o tamanho da fonte do botão para telas menores */
+    font-size: 0.9rem; 
   }
 }
 
 @media (max-width: 480px) {
   .checkout-container {
-    padding: 1rem; /* Reduz o padding para dispositivos móveis */
+    padding: 1rem; 
   }
 
   .checkout-header h1 {
-    font-size: 1.5rem; /* Ajusta o tamanho da fonte para dispositivos móveis */
+    font-size: 1.5rem; 
   }
 
   .checkout-product-info .buy-now {
     padding: 0.5rem;
-    font-size: 0.8rem; /* Ajusta o tamanho da fonte para telas menores */
+    font-size: 0.8rem; 
   }
 }
 

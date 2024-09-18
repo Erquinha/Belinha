@@ -6,17 +6,17 @@
   
   .slides {
     display: flex;
-    width: 500%; /* Ajuste conforme o número de slides */
-    animation: slide 20s infinite; /* Aumente o tempo para desacelerar */
+    width: 500%; 
+    animation: slide 20s infinite; 
   }
   
   .slides img {
     width: 100%;
-    flex: 0 0 20%; /* Ajuste conforme o número de slides */
+    flex: 0 0 20%; 
     height: auto;
   }
   
-  /* Define a animação para o slideshow */
+  
   @keyframes slide {
     0% {
       transform: translateX(0);

@@ -80,28 +80,28 @@
 /* Responsividade */
 @media (max-width: 1024px) {
   .mais-vendidos .product {
-    flex: 1 1 calc(33.333% - 1rem); /* 3 produtos por linha em telas médias */
+    flex: 1 1 calc(33.333% - 1rem); 
   }
 }
 
 @media (max-width: 768px) {
   .mais-vendidos .product {
-    flex: 1 1 calc(50% - 1rem); /* 2 produtos por linha em telas menores */
+    flex: 1 1 calc(50% - 1rem); 
   }
 
   .mais-vendidos .buy-now {
-    padding: 0.75rem 1.25rem; /* Ajuste de padding do botão */
+    padding: 0.75rem 1.25rem;
     font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
   .mais-vendidos .product {
-    flex: 1 1 100%; /* 1 produto por linha em telas pequenas */
+    flex: 1 1 100%; 
   }
 
   .mais-vendidos .buy-now {
-    padding: 0.75rem 1rem; /* Ajuste de padding do botão */
+    padding: 0.75rem 1rem; 
     font-size: 0.9rem;
   }
 }

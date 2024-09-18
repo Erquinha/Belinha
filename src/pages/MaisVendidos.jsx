@@ -6,7 +6,7 @@ function MaisVendidos() {
   const navigate = useNavigate();
 
   const handleComprarAgora = () => {
-    navigate('/checkoutMeusPedidos'); // Redireciona para a página de checkout
+    navigate('/checkoutMeusPedidos'); 
   };
 
   return (

@@ -1,5 +1,5 @@
 header {
-  background-color: #f8f0f5; /* Bege pastel */
+  background-color: #f8f0f5; 
   padding: 1rem;
 
 
@@ -23,7 +23,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #f08080; /* Rosa forte */
+  color: #f08080; 
 }
 
 
