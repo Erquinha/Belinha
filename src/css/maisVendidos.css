@@ -37,7 +37,7 @@
   box-sizing: border-box;
 }
 
-/* Estilo da imagem do produto */
+
 .mais-vendidos .product img {
   width: 100%;
   height: auto;
@@ -48,7 +48,7 @@
   margin-top: 1rem;
 }
 
-/* Estilo do preço */
+
 .mais-vendidos .price {
   font-size: 1.2rem;
   color: #333;
@@ -69,10 +69,10 @@
 }
 
 .mais-vendidos .buy-now:hover {
-  background-color: #d87272; /* Rosa forte ao passar o mouse */
+  background-color: #d87272; 
 }
 
-/* Responsividade */
+
 @media (max-width: 1024px) {
   .mais-vendidos .product {
     flex: 1 1 calc(33.333% - 1rem); 

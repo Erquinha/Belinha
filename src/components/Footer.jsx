@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { FaInstagram, FaEnvelope, FaPhoneAlt, FaFacebook } from 'react-icons/fa'; // Biblioteca de ícones
+import { FaInstagram, FaEnvelope, FaPhoneAlt, FaFacebook } from 'react-icons/fa'; 
 import '../css/footer.css';
 
 function Footer() {

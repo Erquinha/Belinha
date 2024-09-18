@@ -16,7 +16,7 @@
   height: auto;
 }
 
-/* Define a animação para o slideshow */
+
 @keyframes slide {
   0% {
     transform: translateX(0);

@@ -22,7 +22,7 @@ function CheckoutMeusPedidos() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Navegar para a página do cupom fiscal e passar os dados do formulário
+
     navigate('/cupom-fiscal', { state: { formData } });
   };
 
