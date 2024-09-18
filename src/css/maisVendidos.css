@@ -7,38 +7,34 @@
   padding-bottom: 6rem;
 }
 
-/* Estilo do título */
+
 .mais-vendidos h1 {
   margin-bottom: 5rem;
-  color: #f08080; /* Rosa forte */
+  color: #f08080; 
   font-size: 3.5rem;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* Estilo do contêiner de produtos */
+
 .mais-vendidos .products {
   display: flex;
   flex-wrap: wrap;
-  gap: 0rem; /* Adiciona espaço entre os produtos */
+  gap: 0rem; 
   justify-content: center;
   width: 100%;
   box-sizing: border-box;
 }
 
-/* Estilo de cada produto */
-.mais-vendidos .product {
-  border: 1px solid #eee;
-  border-radius: 15px;
+
+.product {
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
   padding: 1rem;
   background-color: #fff;
   text-align: center;
-  flex: 1 1 calc(25% - 1rem); /* 4 produtos por linha com espaçamento */
+  width: calc(33.333% - 0.67rem);
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Centraliza o conteúdo horizontalmente */
-  justify-content: space-between; /* Distribui o espaço entre a imagem e as informações do produto */
 }
 
 /* Estilo da imagem do produto */
@@ -48,7 +44,6 @@
   border-radius: 15px;
 }
 
-/* Estilo das informações do produto */
 .mais-vendidos .product-info {
   margin-top: 1rem;
 }
@@ -60,9 +55,9 @@
   margin-bottom: 0.5rem;
 }
 
-/* Estilo do botão de compra */
+
 .mais-vendidos .buy-now {
-  background-color: #f8c6c6; /* Rosa claro */
+  background-color: #bd6363; 
   color: #fff;
   border: none;
   padding: 0.75rem 1.5rem;

@@ -1,0 +1,48 @@
+
+.cupom-fiscal {
+    padding: 2rem;
+    background-color: #f8f0f5; /* Cor de fundo semelhante à Home */
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif;
+  }
+  
+  .cupom-fiscal h1 {
+    text-align: center;
+    color: #f08080; /* Rosa forte */
+    margin-bottom: 1rem;
+  }
+  
+  .cupom-fiscal p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .cupom-fiscal p strong {
+    color: #f08080; /* Rosa forte para os rótulos */
+  }
+  
+  .cupom-fiscal .nota {
+    background-color: #fff;
+    border: 1px solid #ec6060; /* Bordas na cor rosa forte */
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .cupom-fiscal .nota p {
+    margin: 0.5rem 0;
+  }
+  
+  .cupom-fiscal .nota p strong {
+    color: #333; /* Texto escuro para informações detalhadas */
+  }
+  
+  .cupom-fiscal .agradecimento {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #f08080; /* Rosa forte */
+  }
+  

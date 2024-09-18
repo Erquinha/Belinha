@@ -21,12 +21,12 @@
 }
 
 .product {
-  border: 1px solid #eee;
+  border: 1px solid #f5f5f5;
   border-radius: 8px;
   padding: 1rem;
   background-color: #fff;
   text-align: center;
-  width: calc(33.333% - 0.67rem); /* 3 produtos por linha com espaçamento */
+  width: calc(33.333% - 0.67rem);
   box-sizing: border-box;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .free-item p {
-  color: #f08080; /* Rosa forte */
+  color: #f08080; 
   font-weight: bold;
 }
 
@@ -54,28 +54,33 @@
   color: #f08080;
 }
 
-button {
-  background-color: #f08080; /* Rosa forte */
-  color: #e6a5a5;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-}
 
-button:hover {
-  background-color: #e07b7b; /* Rosa um pouco mais escuro */
-}
 
-/* Responsividade */
 @media (max-width: 768px) {
   .product-group {
     flex-direction: column;
   }
 
   .product {
-    width: 100%; /* 1 produto por linha em telas médias */
+    width: 100%;
   }
+}
+button {
+  background-color: #ff0000; 
+  color: #070202; 
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
+
+button:active {
+  background-color: #990000; /
 }
